@@ -6,7 +6,7 @@
 }
 
 body {
-    /* background: #00ff1a; */
+    background: #ffffff;
 }
 
 
@@ -179,6 +179,7 @@ footer p {
         display: flex;
         text-align: center;
         justify-content: space-evenly;
+        border-image: fill 0 linear-gradient(100deg, rgba(143, 137, 137, 0.9), rgba(128, 124, 124, .8),transparent);
     }
     .title {
         font-size: 25px;
@@ -190,12 +191,12 @@ footer p {
     .logo {
         height: 130px;
         width: 100px;
+        filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
     }
     .member img {
         width: 90px;
         height: 130px;
     }
-
 
 
 
@@ -216,7 +217,7 @@ footer p {
     }
     .imgDrinks {
         width: 250px;
-        height: 150px; 
+        height: 170px; 
         padding: 3px;
         border-radius: 50%;
         margin: 9px;
@@ -225,6 +226,7 @@ footer p {
 
 @media (max-width: 768px ) {
     header {
+        border-image: fill 0 linear-gradient(360deg, rgba(172, 167, 167, 0.9), transparent);
         display: grid;
         place-items: center;
         justify-content: center;
@@ -255,7 +257,7 @@ footer p {
         /* display: block; */
         width: 170px;
         height: 150px; 
-        /* object-fit: cover; */
+        object-fit: cover;
         padding: 3px;
         border-radius: 50%;
         margin: 9px;
